@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default{
+	background:url(../images/headerbg.png) repeat-x;
+	height:60px;
+	}
+.navbar-brand{
+	padding:0px;
+	}
+.navbar-right{
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	}
+.contentArea{
+	border:1px solid #d5d5d5;
+	border-radius:3px;
+	box-shadow:1px 0px 2px #888888;
+	}
+.leftsideContainer{
+	background-color:#fafafa;
+	border-right:1px solid #eaeaea;
+	}	
+.greenText{
+	background:url(../images/green.png) no-repeat;
+	margin:100px 10px 20px 10px;
+	
+	}
+.blueText{
+	background:url(../images/blue.png) no-repeat;
+	margin:20px 10px;
+	}
+.orangeText	{
+	background:url(../images/orange.png) no-repeat;
+	margin:20px 10px;
+	}
+.greenText i{
+	padding:15px 40px 28px 25px;
+	color:#fff;
+	}
+.greenText span{	
+	font:normal 24px 'Lato', sans-serif;
+	color:#7cb832;
+}	
+.blueText i{
+	padding:20px 40px 28px 25px;
+	color:#fff;
+	}	
+.blueText span{	
+	font:normal 24px 'Lato', sans-serif;
+	color:#1b7b8b;
+}	
+.orangeText i{
+	padding:20px 40px 28px 25px;
+	color:#fff;
+	}	
+.orangeText span{	
+	font:normal 21px 'Lato', sans-serif;
+	color:#d89200;
+}
+.small{
+	width:50px;
+	}
+.md {
+	width:90%;
+	}	
+label{
+	color:#101010;
+	font:normal 16px trebuchet ms
+	}	
+h1{
+	color:#1ea1d5;
+	margin:10px 0px;
+	padding:10px 0px;
+	}	
+.fa-asterisk{
+	color:#cc062d;
+	}	
+	
+.errorborder{
+	border:1px solid #E90A0E;
+	}
+.error{
+	font:normal 11px 'Lato', sans-serif;
+	color:#E90A0E;
+	}	
+.info	{
+	color:#70716f;
+	font:normal 12px 'Lato', sans-serif;
+}
+
+.callText{
+	color:#384244;
+}
+.callTextOrange{
+	color:#ff812d;
+}
+
+p.navbar-right{
+	line-height:16px;
+}
+.btnholder{
+	text-align:right;
+}
+.panel-default > .nobg{
+	background:none transparent;
+}
+
+h4.panel-title a{
+	font:normal 22px 'Lato', sans-serif;
+	color:#777873;
+	}
+.passwordPanel .panel-body{
+	padding:0px 15px 0px 60px;
+}
+.num{
+	margin:0px 0px 0px -38px;
+	font:normal 34px 'Lato', sans-serif;
+	color:#fff;
+	position:relative;
+}
+.sectionText{
+	display:block;
+	float:left;
+	width:50%;
+}
+
+.numHolder{
+	width:48px;
+	float:left;
+	color:#5078d0;
+}
+.topicText{
+	font:normal 16px 'Lato', sans-serif;
+}
+.green{
+	color:#48b548;
+}
+.blue{
+	color:#2b5eab;
+}
+.spacing{
+	margin:0px 0px 30px 0px;
+}
+.modal-body ul{
+	list-style:none;
+}
+.modal-body ul li{
+	list-style:none;
+}
+
+.btn-cont{
+	float:right;
+}
+
+
+.buttonContinue{
+	background:url(../images/btnbg.png);
+}
+
+a.sectionText:hover{
+	text-decoration:none;
+}
+.editBtn{
+	float:right;
+	color:#0682c8;
+}
+.btnSavePass{
+	float:right;
+}
+.infoText{
+	color:#117a10;
+
+}
+.textInfo{
+	font:normal 16px 'Lato', sans-serif;
+}
+.terms{
+	color:#173c9b;
+}
+a.collapsed,.panel-title  a{
+	text-decoration:none;
+	cursor:pointer;
+	
+}

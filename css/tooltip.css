@@ -1,0 +1,100 @@
+
+.popupTooltip {
+  width: 200px;
+  background-color: rgba(142,68,173,0.7);
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 10px 20px;
+  color: #fff;
+  position: absolute;
+  z-index: 10001;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.popupTooltip:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.popupTooltip .popupTooltip-close {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  display: none;
+  width: 10px;
+  height: 10px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAD1BMVEUAAAD///////////////+PQt5oAAAABHRSTlMAcFwSAtVt2gAAAC1JREFUCNdjMGJgYFBmUBFgYHRiYHRkEBFgYBARdAQKMroIQEmICEQWohKiCwBzUAPbUGfWNwAAAABJRU5ErkJggg==');
+}
+
+.popupTooltip:hover .popupTooltip-close {
+  display: block;
+  cursor: pointer;
+}
+
+.popupTooltip.side-top {
+  bottom: 100%;
+  margin-bottom: 10px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.popupTooltip.side-right {
+  left: 100%;
+  margin-left: 10px;
+  top: 50%;
+}
+
+.popupTooltip.side-bottom {
+  top: 100%;
+  margin-top: 10px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.popupTooltip.side-left {
+  right: 100%;
+  margin-right: 10px;
+  top: 50%;
+}
+
+.popupTooltip.side-top:before {
+  border-width: 10px 9px 0 9px;
+  border-color: rgba(142,68,173,0.7) transparent transparent;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -9px;
+}
+
+.popupTooltip.side-right:before {
+  border-width: 9px 10px 9px 0;
+  border-color: transparent rgba(142,68,173,0.7) transparent transparent;
+  left: -10px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.popupTooltip.side-bottom:before {
+  border-width: 0 9px 10px 9px;
+  border-color: transparent transparent rgba(142,68,173,0.7) transparent;
+  top: -10px;
+  left: 50%;
+  margin-left: -9px;
+}
+
+.popupTooltip.side-left:before {
+  border-width: 9px 0 9px 10px;
+  border-color: transparent transparent transparent rgba(142,68,173,0.7);
+  right: -10px;
+  top: 50%;
+  margin-top: -9px;
+}
